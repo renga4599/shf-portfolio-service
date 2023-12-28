@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: shf-portfolio-service
+  profiles:
+    default: "mysql"
+
+
+server:
+  servlet:
+    context-path: /${spring.application.name}
